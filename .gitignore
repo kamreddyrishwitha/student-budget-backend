@@ -1,0 +1,43 @@
+HELP.md
+
+# Maven
+target/
+build/
+dist/
+*.class
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local configuration and secrets
+application-local.properties
+application-local.yml
+application-secret.properties
+application-secret.yml
+
+# IDE files
+.idea/
+.vscode/
+.settings/
+.apt_generated
+.classpath
+.factorypath
+.project
+.springBeans
+.sts4-cache/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
